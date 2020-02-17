@@ -35,8 +35,15 @@ public class StringCalculator {
     }
 
     public void inputs() {
-        Scanner input = new Scanner(System.in);
-        String val = input.nextLine();
-        System.out.println(add(val));
+        System.out.println(add(""));
+        System.out.println(add("1"));
+        System.out.println(add("1,1"));
+        System.out.println(add("1,2,3,4"));
+        System.out.println(add("1\n2,3"));
+//        System.out.println(add("//;\\n1;2"));
+//        System.out.println(add("//4\\n142"));
+    //    System.out.println(add("-1,-2,3,4"));
+//        System.out.println(add("//;\n1000,1;2"));
+//        System.out.println(add("//***\n1***2***3"));
     }
 }
